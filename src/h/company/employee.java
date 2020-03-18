@@ -25,8 +25,6 @@ public class employee {
      idNumber = id;
      department = dprt;
      position = psn;
-     
-     
  }
  
  
@@ -44,7 +42,9 @@ public class employee {
      return position;
  }
 
- 
+ public void display(){
+     System.out.println( idNumber+": "+ name +" Department: "+ department +" Position: "+ position);
+ }
  // set
  public void setName(String n){
       name = n;
